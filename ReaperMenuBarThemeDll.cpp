@@ -328,6 +328,7 @@ LRESULT CALLBACK CallWndSubClassProc(HWND hWnd, UINT uMsg, WPARAM wParam,
             break;
         }
         }
+        break;
     }
     case WM_IME_SETCONTEXT:
     {
